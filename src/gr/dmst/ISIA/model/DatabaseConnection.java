@@ -21,13 +21,13 @@ import java.sql.SQLException;
  */
 public class DatabaseConnection {
 	/** URL of database. */
-	private final String URL = "jdbc:mysql://localhost/bus_info";
+	private final String URL = "//database";
 
 	/** Username to enter database. */
-	private final String USERNAME = "root";
+	private final String USERNAME = "//username";
 
 	/** Password to enter database. */
-	private final String PASSWORD = "othr842t9";
+	private final String PASSWORD = "//password";
 
 	/** Object defines connection between Java and database. */
 	private Connection connection = null;
