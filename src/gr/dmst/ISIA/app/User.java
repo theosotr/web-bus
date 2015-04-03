@@ -13,7 +13,7 @@ import java.util.List;
  * extras operation of system such as search of optimal path betweem two points
  * storing routes and stops in a list.
  *
- * @author Thodoris Sotiropoulos
+ * @author Thodoris Sotiropoulos, Konstantinos Karakatsanis
  */
 public class User {
 	/** username of user. */
@@ -46,7 +46,7 @@ public class User {
 	 * @param firstName first name of user.
 	 * @param surname surname of user.
 	 */
-	public User(String username, String password, String email, 
+	public User(String username, String password, String email,
 			String firstName, String surname) {
 		this.username = username;
 		this.password = password;

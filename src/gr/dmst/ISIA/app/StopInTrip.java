@@ -2,6 +2,8 @@ package gr.dmst.ISIA.app;
 
 /**
  * A class that represents a stop in a trip (extends Stop class).
+ *
+ * @author Konstantinos Karakatsanis
  */
 public class StopInTrip extends Stop {
 	/** Stop's sequence */

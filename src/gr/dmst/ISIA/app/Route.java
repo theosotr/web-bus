@@ -10,6 +10,8 @@ import org.json.JSONObject;
 
 /**
  * A class that represents a route.
+ *
+ * @author Konstantinos Karakatsanis
  */
 public class Route {
 
@@ -382,7 +384,7 @@ public class Route {
 	}
 
 	/**
-	 * Gets the trip's info such as duration and the stops that the 
+	 * Gets the trip's info such as duration and the stops that the
 	 * route passes from, with their coordinates and departure times.
 	 *
 	 * @return A JSONObject with the trip's info.

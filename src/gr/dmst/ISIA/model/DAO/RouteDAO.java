@@ -16,6 +16,8 @@ import java.util.List;
  * by executing queries.
  *
  * It is implemented as Data Access Object
+ *
+ * @author Konstantinos Karakatsanis
  */
 public interface RouteDAO {
 	/**

@@ -8,6 +8,8 @@ import java.util.List;
 
 /**
  * A class that represents a trip.
+ *
+ * @author Konstantinos Karakatsanis
  */
 public class Trip {
 

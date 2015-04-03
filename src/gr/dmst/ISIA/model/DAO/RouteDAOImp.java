@@ -18,6 +18,8 @@ import gr.dmst.ISIA.app.User;
 /**
  * A class that implements the {@link gr.dmst.ISIA.model.DAO.RouteDAO} interface which defines
  * the way that {@link gr.dmst.ISIA.app.Route} class communicates with database.
+ *
+ * @author Konstantinos Karakatsanis
  */
 public class RouteDAOImp implements RouteDAO {
 	/**
