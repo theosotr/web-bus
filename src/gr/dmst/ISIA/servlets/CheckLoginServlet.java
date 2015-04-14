@@ -51,7 +51,7 @@ public class CheckLoginServlet extends HttpServlet {
 			session.setAttribute("user", user.getUsername());
 			response.sendRedirect("mainpage.jsp");
 		} else {
-			session.setAttribute("errorMessage", "Λάθος κωδικός πρόσβασης");
+			session.setAttribute("errorMessage", "Ξ›Ξ¬ΞΈΞΏΟ‚ ΞΊΟ‰Ξ΄ΞΉΞΊΟΟ‚ Ο€ΟΟΟƒΞ²Ξ±ΟƒΞ·Ο‚");
 			response.sendRedirect("index.jsp");
 		}
 	}
