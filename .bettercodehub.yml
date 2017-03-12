@@ -1,0 +1,9 @@
+exclude:
+- /web/js/bootstrap.js
+- /web/js/ie10-viewport-bug-workaround.js
+- /web/js/jquery-ui.js
+- /web/js/jquery.js
+component_depth: 1
+languages:
+- java
+- javascript
